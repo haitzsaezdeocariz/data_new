@@ -15,3 +15,16 @@ ty (Wall shear stress in y direction, [Pa])
 NB: rock0_post_wall.csv also contains a ninth column with wall boolean (1 = wall, 0 = no wall)
 
 Each file has the same grid and the x, y coordinates have the same row order
+
+
+Pre-trained models are trained with
+
+lr = 10e-3
+batchsize = int(np.floor(1541771/2))
+weight_decay = 0
+naming:
+mlp_vanilla_with_alpha_with_encodings10_400_test_4
+uses mlp + alpha reinsertion + fourier encoding
+10 is sigma
+400 matrix size
+test_4: test of high AoAs

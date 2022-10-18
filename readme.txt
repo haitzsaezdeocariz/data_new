@@ -19,6 +19,7 @@ Each file has the same grid and the x, y coordinates have the same row order
 
 Pre-trained models are trained with
 
+epochs 2000
 lr = 10e-3
 batchsize = int(np.floor(1541771/2))
 weight_decay = 0

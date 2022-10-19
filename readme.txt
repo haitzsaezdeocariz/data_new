@@ -19,9 +19,9 @@ Each file has the same grid and the x, y coordinates have the same row order
 
 Pre-trained models are trained with
 
-epochs 10,000
+epochs 20,000
 lr = 10e-3
-batchsize = int(np.floor(1541771/2))
+batchsize = int(np.floor(1401610/2))
 weight_decay = 0
 naming:
 mlp_vanilla_with_alpha_with_encodings10_400_test_4
